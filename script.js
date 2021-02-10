@@ -2,6 +2,27 @@
 // But the problem is I don't know how to put together the code of TypeHead and Github API
 // Hopefully, I have a chance to take next challenge.
 
+// var form = document.getElementById("myForm")
+
+// form.addEventListener('submit',function(e){
+//     e.preventDefault()
+    
+//     var search = document.getElementById("search").value
+//     var originalName = search.split('').join('')
+//     // alert(originalName)
+
+//     fetch("https://api.github.com/users/"+originalName)
+//     .then((result)=>result.json())
+//     .then((data)=>{
+//         console.log(data)
+
+//         document.getElementById("result").innerHTML = `
+//         <img src="${data.avatar_url}"/>
+//         `
+//     })
+// })
+
+
 var substringMatcher = function(strs) {
     return function findMatches(q, cb) {
       var matches, substringRegex;
